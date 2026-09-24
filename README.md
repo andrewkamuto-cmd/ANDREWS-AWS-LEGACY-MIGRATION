@@ -1,0 +1,6 @@
+This a clone project of one of the previous projects I participated in.
+Project Name - SWAGGERTYS-AWS-LEGACY-MIGRATION
+Business Problem - The company was projecting that in about 6 months, production was going to increase its production (the new productuion building was still under construction). We agreed that we needed to move our web application from the locally hosted server because the application supportedd recipes, customer inquiries, and marketing pages. And also online orders were expected to increase from retailers and customers. Migrating the web application from the local host environment to AWS was going to create a secure, repeatable, recoverable cloud architecture using Terraform
+Current-State Architecture to Target Architecture: We used Terraform for Infrastructure as Code. VPC, subnet, routes and Internet Gateway for networking. For computing we used EC2. As out operating system, we used Ubuntu Linux. We used Apache as our web server. Wordpress and PHP to host the web application. As our database, we used MySQL/RDS. S3 for storage. For securtity we used Security Groups and practiced least privilege with IAM. And CloudWatch was used for monitoring the overall health of the resources provisioned
+Technologies-
+Migration Objectives - We
