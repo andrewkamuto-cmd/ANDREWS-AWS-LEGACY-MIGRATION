@@ -1,5 +1,5 @@
 variable "aws_region" {
-  description = "AWS region for Swaggertys migration infrastructure"
+  description = "AWS region for Andrews AWS Legacy Migration"
   type        = string
   default     = "us-east-2"
 }
@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "project_name" {
   description = "Project name"
   type        = string
-  default     = "swaggertys-migration"
+  default     = "andrews-aws-legacy-migration"
 }
 
 variable "environment" {
